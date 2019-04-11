@@ -1,7 +1,5 @@
 In this examination assignment you are supposed to build what we call a "Personal Web Desktop" (PWD).  First of all, have a look at this recording to get a better view of the assignment.
 
-[Demo - Personal Web Desktop](https://youtu.be/zHFjfoUWONY)
-
 ## Requirements
 Please check that your application meets the requirements below before submitting your final version.
 
