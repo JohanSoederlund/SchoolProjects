@@ -1,0 +1,33 @@
+{
+  "name": "chaser",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha test/**/*.test.js",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "websocket",
+    "socket",
+    "chat",
+    "react",
+    "reactjs"
+  ],
+  "author": "Johan Söderlund",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "chai": "^4.1.2",
+    "marked": "^0.4.0",
+    "material-ui": "^0.20.1",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "mocha": "^5.2.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4",
+    "socket.io": "^2.1.0",
+    "socket.io-client": "^2.1.0"
+  }
+}

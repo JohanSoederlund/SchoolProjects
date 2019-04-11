@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    form(name="snippet name", method="post")
+        input(type="hidden", name="_csrf", value= csrfToken)
+        input(type="text", name="title", value= data[0].title)
+        textarea(name="snippet", cols="40", rows="5")= data[0].body
+        p Snippet created
+            p= data[0].createdAt
+        p Snippet last patched
+            p= data[0].updatedAt
+        p= "Author: " + (data[0].author)
+        input(type="submit", value="Save")
+    //input(type="button", value="Clear")
+    a(href="../delete/" + data[0].id) Delete

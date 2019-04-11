@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    form(name="snippet name", method="post")
+        input(type="hidden", name="_csrf", value= csrfToken)
+        input(type="text", name="title", value="Title")
+        textarea(name="snippet", cols="40", rows="5")
+        input(type="submit", value="Save")
+    //input(type="button", value="Clear")

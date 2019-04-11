@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    form(name="register form", method="post")
+        input(type="hidden", name="_csrf", value= csrfToken)
+        label Username:
+        input(type="text", name="username")
+        label Password:
+        input(type="password", name="password", minlength=6)
+        label Repeat password:
+        input(type="password", name="repeatPassword", minlength=6)
+        input(type="submit", value="Register")

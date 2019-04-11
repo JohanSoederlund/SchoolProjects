@@ -1,0 +1,38 @@
+{
+  "name": "Scraper",
+  "version": "1.0.0",
+  "description": "Scraper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm-run-all --parallel watch:*",
+    "debug": "npm-run-all --parallel server:http watch:*",
+    "server:http": "http-server ./client/debug -p 4000",
+    "watch:js": "watchify ./client/source/js/app.js -o ./client/debug/javascript/build.js -d -v --poll",
+    "watch:html": "nodemon --watch ./client/source -e html -x \"npm run build:html\" --legacy-watch",
+    "watch:css": "nodemon --watch ./client/source/css -e css -x \"npm run build:css\" --legacy-watch",
+    "watch:img": "nodemon --watch ./client/source/image -e jpg,jpeg,png,webp,gif,svg -x \"npm run build:img\" --legacy-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1dv023/js223zs-examination-1.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "scraper"
+  ],
+  "author": "js223zs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1dv023/js223zs-examination-1/issues"
+  },
+  "homepage": "https://github.com/1dv023/js223zs-examination-1#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.1",
+    "lodash": "^4.17.4",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}

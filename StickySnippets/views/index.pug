@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    div
+        ul
+            each element in data
+                li: a(href="snippet/edit/" + element.id)= element.title
+            else
+                li There are no values

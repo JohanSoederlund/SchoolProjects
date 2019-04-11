@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='./public/stylesheets/style.css')
+    body
+        header
+            nav
+                ul
+                    if auth
+                        li: a(href="/logout") Logout
+                    else
+                        li: a(href="/login") Login
+                    li: a(href="/") Home
+                    li: a(href="/snippet/create") Create new
+        main
+            div(class="wrapper")
+                h1= title
+                if locals.flash != undefined
+                    p(class= locals.flash.success)= locals.flash.message
+                block content
+

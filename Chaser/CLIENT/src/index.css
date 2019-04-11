@@ -1,0 +1,179 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+    
+  }
+  
+  .gamePiece {
+      color: blue;
+  }
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 12px;
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 10px;
+    height: 22px;
+    text-align: center;
+    width: 24px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .horizontal {
+    float: left;
+    background: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 12px;
+    height: 2px;
+    text-align: center;
+    width: 25px;
+    opacity: 0.3;
+  }
+
+  .g-block {
+    float: left;
+    background: black;
+    margin-left: 15px;
+    height: 25px;
+    text-align: center;
+    width: 2px;
+    opacity: 0.3;
+  }
+
+  .vertical {
+    float: left;
+    background: black;
+    margin-left: 53px;
+    height: 25px;
+    text-align: center;
+    width: 2px;
+    opacity: 0.3;
+  }
+
+  .game {
+    display: flex;    
+    flex-direction: row;
+  }
+  .info-show {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: 1.8em;
+    height: 40px;
+  }
+
+  .player, .status-board, .round-hide, .noWinner, .round-show {
+    text-align: center;
+    font-size: 1.8em;
+    height: 40px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #ccc;
+  }
+  .status-board, .round-show, .isWinner {
+    height: 80px;
+  }
+
+  .info-hide {
+    display: none;
+  }
+  .login-show {
+    display: block;
+  }
+  .login-hide {
+    display: none;
+  }
+  .startGame-show {
+    display: block;
+  }
+  .startGame-hide {
+    display: none;
+  }
+  .round-show {
+    display: block;
+  }
+  .round-hide {
+    display: none;
+  }
+  .gamePieces-show {
+    display: block;
+  }
+  .gamePieces-hide {
+    display: none;
+  }
+  .runningGame-show {
+    display: block;
+  }
+  .runningGame-hide {
+    display: none;
+  }
+  .noWinner {
+    display: none;
+  }
+  .isWinner {
+    font-size: 200%;
+    color: red;
+    display: block;
+  }
+  .game-board {
+    background-color: beige;
+    padding: 10px;
+    width: 640px;
+  }
+  .game-info {
+    margin-left: 20px;
+    width: 30%;
+  }
+  .side-info {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .done {
+    height:40px;
+    font-weight: bold;
+  }
+  .done-div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  button { 
+    margin-top: 3px;
+    width: 100%;
+    height:40px;
+    font-weight: bold;
+    margin-right: 4px;
+    background-color: beige;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .rules {
+    background-color: beige;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  

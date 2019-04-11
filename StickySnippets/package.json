@@ -1,0 +1,42 @@
+{
+  "name": "stickysnippets",
+  "version": "1.0.0",
+  "description": "create, read, update and delete snippets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1dv023/js223zs-examination-2.git"
+  },
+  "keywords": [
+    "vagrant",
+    "node",
+    "javascript",
+    "snippets",
+    "express"
+  ],
+  "author": "Johan Söderlund",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1dv023/js223zs-examination-2/issues"
+  },
+  "homepage": "https://github.com/1dv023/js223zs-examination-2#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "csurf": "^1.9.0",
+    "debug": "~2.6.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "helmet": "^3.4.1",
+    "mongod": "^2.0.0",
+    "mongoose": "^4.8.5",
+    "morgan": "~1.7.0",
+    "pug": "~2.0.0-beta10",
+    "serve-favicon": "~2.3.2"
+  }
+}

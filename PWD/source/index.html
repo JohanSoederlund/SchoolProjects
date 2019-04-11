@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Examination-2</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/style.css">
+
+</head>
+<body>
+<nav>
+    <ul id="toolbar">
+        <li><a href="#Chat" id="chat-icon-link"><img src="./image/chat.png" alt="icon" id="chat-icon"></a></li>
+        <li><a href="#Chat" id="game15-icon-link"><img src="./image/game15.png" alt="icon" id="game15-icon"></a></li>
+        <li><a href="#Memory" id="memory-icon-link"><img src="./image/memory.png" alt="icon" id="memory-icon"></a></li>
+        <li><a href="#About" id="info-icon-link"><img src="./image/info.png" alt="icon" id="info-icon"></a></li>
+    </ul>
+</nav>
+<main>
+    <ul class="minimized-apps">
+        <ul id="minimized-memory"><a href="#Memory"><img src=""></a></ul>
+        <ul id="minimized-chat"><a href="#Chat" ><img src=""></a></ul>
+        <ul id="minimized-game15"><a href="#Game15" ><img src=""></a></ul>
+    </ul>
+    <div id="login-container" class="hide">
+        <p>Proceed to chat by entering a nickname.</p>
+        <input id="username-field" type="text" name="nickname" value=""><br>
+        <button id="login-button" value="Submit">Login</button>
+    </div>
+
+</main>
+</body>
+<template id="app-window">
+    <div id="tempVar" class="app-window">
+        <div class="app-toolbar">
+            <img src="">
+            <p></p>
+            <img src="./image/close.png" class="app-close">
+            <img src="./image/minimize.png" class="app-minimize">
+            <select class="drop-down">
+
+            </select>
+        </div>
+        <div class="app-board">
+
+        </div>
+    </div>
+</template>
+<template id="app-chat">
+    <div class="message-feed">
+
+    </div>
+    <textarea rows="4" cols="35" class="message-input">
+
+    </textarea>
+</template>
+<template id="incoming-message">
+    <p class="nickname"></p>
+    <textarea disabled rows="4" cols="30" class="data-message"></textarea>
+</template>
+<template id="memory-card">
+    <div class="memory-card">
+        <a href="#"><img src="./image/memory/blank.png" class="img-card"></a>
+    </div>
+</template>
+<template id="result">
+    <div class="result">
+        <p></p>
+    </div>
+</template>
+<template id="memory-icon-minimized">
+    <li><a href="#"><img src="./image/memory.png" alt="icon" class="app-icon-minimized"></a></li>
+</template>
+<template id="chat-icon-minimized">
+    <li><a href="#"><img src="./image/chat.png" alt="icon" class="app-icon-minimized"></a></li>
+</template>
+<template id="game15-icon-minimized">
+    <li><a href="#"><img src="./image/game15.png" alt="icon" class="app-icon-minimized"></a></li>
+</template>
+<template id="options">
+    <option value=""></option>
+</template>
+
+<template id="app-info">
+    <div class="app-info">
+        <h2>Personal Web Desktop</h2>
+        <p>This is your personal desktop online. It contains three applications.</p>
+        <h2>Chat</h2>
+        <p>Choose a nickname, connect to a channel and start writing to your friends.</p>
+        <h2>Game fifteen</h2>
+        <p>The Game of Fifteen is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing.
+        The object of the puzzle is to place the tiles in order by clicking on numbers next to the empty space.</p>
+        <h2>Memory</h2>
+        <p>In the memory game, images are randomly placed face-down in a grid. Each turn, the player chooses two images to peek at.
+        If they choose two of the same image in a row, those images are a match and will be hidden from the game.
+        If the images do not match they will be turned back face down after one second. You win when every image is removed from the game.</p>
+        <img src="./image/memory/Memory.PNG">
+        <img src="./image/game15/game15.png">
+    </div>
+</template>
+
+<script src="javascript/build.js"></script>
+</html>

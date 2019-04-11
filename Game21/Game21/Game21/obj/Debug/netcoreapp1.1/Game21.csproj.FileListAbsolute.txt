@@ -1,0 +1,9 @@
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\bin\Debug\netcoreapp1.1\Game21.deps.json
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\bin\Debug\netcoreapp1.1\Game21.runtimeconfig.json
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\bin\Debug\netcoreapp1.1\Game21.runtimeconfig.dev.json
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\bin\Debug\netcoreapp1.1\Game21.dll
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\bin\Debug\netcoreapp1.1\Game21.pdb
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\obj\Debug\netcoreapp1.1\Game21.csprojResolveAssemblyReference.cache
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\obj\Debug\netcoreapp1.1\Game21.AssemblyInfo.cs
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\obj\Debug\netcoreapp1.1\Game21.dll
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-3\Game21\Game21\obj\Debug\netcoreapp1.1\Game21.pdb

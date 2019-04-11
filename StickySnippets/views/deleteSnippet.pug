@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    p Are you sure?
+    form(name="snippet name", method="post")
+        input(type="hidden", name="_csrf", value= csrfToken)
+        input(type="submit", value="Delete")

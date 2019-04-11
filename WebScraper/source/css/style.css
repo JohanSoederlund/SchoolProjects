@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+* { margin:0; padding:0; }
+
+html {-webkit-text-size-adjust:100%;}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+label{
+    font-size: 1.2em;
+    margin: 10px auto;
+    height: 30px;
+    z-index: 9;
+}
+
+input[type=radio] {
+    border: 1px;
+    width: 1.2em;
+    height: 1.2em;
+    z-index: 9;
+    cursor: pointer;
+}
+
+#timer {
+    text-align: center;
+    background-color: #87707f;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.marginBottom {
+    padding: 100px;
+}
+
+header, main, footer {display: block; padding: 10px;}
+
+h2 {color: #87707f;}
+p {font-size: 1.2em;}
+
+nav {top: 70px; background-color: #87707f; max-width: 360px; margin-left: auto; margin-right: auto;}
+#globalnav {list-style: none; text-align: center;}
+#globalnav li {display: block; border: solid;}
+#globalnav a {color: #000000; text-decoration: none; }
+
+#wrapper {max-width: 360px; position: absolute; margin: 0 auto; left: 0; right: 0;}
+#timer {
+    font-size: 25px;
+}
+#question {
+    font-size: 16px;
+}
+#response {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header {text-align: center; margin-top: 10px;}
+header h1 {display: block; color: #87707f; }
+
+main p {padding: 10px;}
+main {max-width: 100%;}
+
+footer { bottom: 0; height: 40px; background-color: #87707f; opacity: 0.7; text-align: center; max-width: 360px;}
+
+.hide {display: none;}
+
+.show {display: inline-block;}
+
+.red {color: red;}
+.green {color: darkgreen;}
+
+@media screen and (min-width:360px){
+    #wrapper {max-width: 800px;}
+    header h1 {display: inline;}
+    footer {max-width: 800px;}
+}
+@media screen and (min-width:480px){
+
+}
+
+@media screen and (min-width:600px){
+    #wrapper {max-width: 600px; position: absolute; margin: 0 auto; left: 0; right: 0;}
+
+    header h1 {font-size: 3.0em;}
+
+    nav {top: 120px; background-color: #ffffff; width: 600px; max-width: 600px;}
+    #globalnav li {display: inline; border: none;}
+    #globalnav a {background-color: #87707f; display: inline-block; width: 16%; padding: 1px; border: solid #ffffff; }
+    #globalnav a:hover, #localnav a:active {opacity: 0.7; background-color: #87707f; border-bottom: solid #87707f;}
+    #globalnav #thisSection {border-bottom: solid #87707f;}
+
+    header {margin-top: 66px;}
+
+    main {position: relative; top: 70px; padding-top: 20px; padding-bottom: 40px; background-color: rgba(255, 255, 255, 0.8)}
+
+    footer {position: fixed; width: 600px; }
+}
+@media screen and (min-width:800px){
+
+
+}

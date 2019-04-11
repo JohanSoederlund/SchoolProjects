@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Examination-2</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/style.css">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Welcome to Quiz application</h1>
+    </header>
+    <nav>
+        <ul id="globalnav">
+            <li><a href="#rules">rules</a></li>
+            <li><a href="#highscore">highscore</a></li>
+            <li><a href="#logs">logs</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="rules" class="hide">
+            <h2>Rules</h2>
+            <p>
+                The rules are simple. First you need to fill in your username below.
+                When you press enter a question will appear and you will have 20 seconds to answer it correctly.
+                If you get the answer right a new question will be presented until you either win by getting all the questions right or lose by either an incorrect answer or exceeding the time-limit.
+                Your final result will then be presented to you and you may try again.
+            </p>
+        </div>
+        <div id="highscore" class="hide">
+            <h2>Highscore</h2>
+            <p></p>
+        </div>
+        <div id="user">
+            <p>Insert your username here: </p>
+            <input type="text">
+            <button id="startButton" class="button">Start quiz</button>
+        </div>
+        <div id="response" class="hide">
+        </div>
+        <div id="timer"  class="hide">
+            <span class="countdown">Time left: </span>
+            <span class="seconds"></span>
+        </div>
+
+        <div id="question">
+            <p></p>
+        </div>
+        <div id="answerField" class="hide">
+            <input type="text">
+            <Button type="button" class="button">Send</Button>
+        </div>
+        <form id="answerAlternatives" class="hide">
+            <div id="answerButton">
+                <Button type="button" class="button">Send</Button>
+            </div>
+        </form>
+        <div id="logs" class="hide">
+            <h2>Logs</h2>
+            <p></p>
+        </div>
+        <div id="marginBottom">
+            <p></p>
+        </div>
+    </main>
+    <footer>
+        <p>Johan Söderlund since 2016-12-06</p>
+        <p>Contact js223zs@student.lnu.se</p>
+    </footer>
+</div>
+</body>
+<script src="javascript/build.js"></script>
+</html>

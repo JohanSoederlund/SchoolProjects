@@ -1,0 +1,8 @@
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\bin\Debug\netcoreapp1.1\App.deps.json
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\bin\Debug\netcoreapp1.1\App.runtimeconfig.json
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\bin\Debug\netcoreapp1.1\App.runtimeconfig.dev.json
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\bin\Debug\netcoreapp1.1\App.dll
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\bin\Debug\netcoreapp1.1\App.pdb
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\obj\Debug\netcoreapp1.1\App.AssemblyInfo.cs
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\obj\Debug\netcoreapp1.1\App.dll
+C:\Users\Johan\SkolaProgrammering\Webbprogrammerare\1DV024\js223zs-examination-1\App\obj\Debug\netcoreapp1.1\App.pdb
